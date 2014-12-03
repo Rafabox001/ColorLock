@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ColorLock</string>
+    <string name="hello_world">Hello world!</string> 
+    <string name="action_settings">About!</string>
+    <string name="intro">Drag colors test.</string>
+    <string name="option_1">Red</string>
+	<string name="option_2">Yellow</string>
+	<string name="option_3">Blue</string>
+	<string name="tutorial">Iniciar tutorial?</string>
+	<string name="tuto_ask">Quieres iniciar el tutorial del juego?</string>
+	<string name="choice_3">Color3</string>
+	<string name="choice_4">Color4</string>
+	<string name="tuto_title">Tutorial Color Lock</string>
+	<string name="tuto1">Hola y bienvenido a Color Lock!! </string>
+	<string name="tuto1_desc">El objetivo en Color Lock es descubrir una combinación secreta creada con colores, para ello explicaremos un poco mas a detalle cada elemento que se muestra en pantalla...</string>
+	<string name="tuto2_title">Castillas verificación:</string>
+	<string name="tuto2_1">Las casillas de verificacion son los componentes que te daran las pistas necesarias para poder descubrir el codigo secreto, estas cambiaran su color indicandote que tan cerca estas de tu objetivo!!</string>
+	<string name="tuto2_2">Si la casilla de verificacion se muestra en color verde significa que el color que colocaste en esa posicion ya esta bien. Si la casilla se muestra en color amarillo esto significa que el color existe dentro de la combinacion secreta pero que el lugar en el que lo colocaste no es el correcto, por ultimo si el color de la casilla es rojo esto significa que el color que seleccionaste no existe dentro de la combinación asi que sera mejor que busques otra opción!!</string>
+	<string name="tuto3_title">Casillas de selección:</string>
+	<string name="tuto3_1">Las casillas de seleccion son los lugares a donde arrastraras los colores para tratar de descubrir el codigo secreto!!</string>
+	<string name="tuto4_title">Paleta de colores:</string>
+	<string name="tuto4_1">La paleta de colores son las opciones de las que dispones para armar el codigo, estos iran variando con el paso de los niveles!!</string>
+	<string name="tuto5_title">Botones de validación y reinicio</string>
+	<string name="tuto5_1">Aqui encontraras 2 botones, el boton de validacion solo sera visible una vez que hayas arrastrado un color a cada casilla de selección, y lo que hara sera validar si es correcta la combinación que hiciste, el boton de reinicio genera una nueva combinación secreta y reinicia el juego!!</string>
+	<string name="tuto_end">Fin de tutorial!!</string>
+	<string name="tuto_info">Este es el fin del tutorial, esperamos que te diviertas con el juego, cualquier sugerencia o comentario es bienvenido, puedes dejar tus comentarios en la valoración del juego y seran tomados en cuenta para mejorar la experiencia de usuario...</string>
+	<string name="end">BIEN HECHO!!</string>
+	<string name="cong">Bien descubriste la combinación secreta, vuelve a empezar!!</string>
+	
+</resources>

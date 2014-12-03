@@ -1,0 +1,301 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/back"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp" >
+    
+    <ImageButton
+        android:id="@+id/tuto_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/tuto_btn" />
+    
+    <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+    
+        <TextView
+	    android:id="@+id/lock_1"
+	    android:layout_width="20dp"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+        
+        <TextView
+	    android:id="@+id/lock_2"
+	    android:layout_width="20dp"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+        
+        <TextView
+	    android:id="@+id/lock_3"
+	    android:layout_width="20dp"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+        
+        <TextView
+	    android:id="@+id/lock_4"
+	    android:layout_width="20dp"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+        
+        <TextView
+	    android:id="@+id/check1"
+	    android:layout_width="20dp"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/checks"
+	    android:gravity="center" />
+        
+        <TextView
+	    android:id="@+id/check2"
+	    android:layout_width="20dp"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/checks"
+	    android:gravity="center" />
+        
+        <TextView 
+	    android:id="@+id/check3"
+	    android:layout_width="20dp"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/checks"
+	    android:gravity="center" />
+        
+        <TextView
+	    android:id="@+id/check4"
+	    android:layout_width="20dp"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/checks"
+	    android:gravity="center" />
+        
+        
+    </LinearLayout>
+    
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:paddingBottom="10dp"
+	    android:text="@string/intro" 
+	    android:textColor="#ffffff"/>
+    
+    <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+        
+        <TextView
+	    android:id="@+id/choice_1"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+	 
+	    <TextView
+	    android:id="@+id/choice_2"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+	 
+	    <TextView
+	    android:id="@+id/choice_3"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+	    
+	    <TextView
+	    android:id="@+id/choice_4"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+        
+    </LinearLayout>
+    
+    <!--  LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:background="#48000000"
+    android:paddingRight="50dp">
+        
+        <TextView
+	    android:id="@+id/remind_1"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:visibility="invisible"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+	 
+	    <TextView
+	    android:id="@+id/remind_2"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:visibility="invisible"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+	 
+	    <TextView
+	    android:id="@+id/remind_3"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:visibility="invisible"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+	    
+	    <TextView
+	    android:id="@+id/remind_4"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:visibility="invisible"
+	    android:background="@drawable/choice"
+	    android:gravity="center" />
+        
+    </LinearLayout>-->
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+    
+        
+	    
+	    <TextView
+	    android:id="@+id/option_1"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="#ff0000"
+	    android:gravity="center" />
+	 
+	    <TextView
+	    android:id="@+id/option_2"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="#ffd700"
+	    android:gravity="center" />
+	    
+	    <TextView
+	    android:id="@+id/option_3"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="#0000cd"
+	    android:gravity="center" />
+	    
+	    
+        
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+	    
+        <TextView
+	    android:id="@+id/option_4"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="#FFFAFA"
+	    android:gravity="center" />
+	    
+	    <TextView
+	    android:id="@+id/option_5"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="#00ff00"
+	    android:gravity="center" />
+	    
+	    <TextView
+	    android:id="@+id/option_6"
+	    android:layout_width="60dp"
+	    android:layout_height="45dp"
+	    android:layout_margin="5dp"
+	    android:background="#00ffff"
+	    android:gravity="center" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="10dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+	    
+        <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/verify_app" 
+        android:visibility="invisible"/>
+    
+    	<ImageButton
+        android:id="@+id/btn_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/refresh_app" />
+        
+    </LinearLayout>
+
+    
+ 
+</LinearLayout>
